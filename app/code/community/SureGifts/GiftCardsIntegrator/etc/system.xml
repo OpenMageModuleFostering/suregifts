@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <tabs>
+        <sg_tab module="suregifts_giftcardsintegrator" translate="label">
+            <label>Suregifts Checkout</label>
+            <sort_order>100</sort_order>
+        </sg_tab>
+    </tabs>
+    <sections>
+        <sg_section module="suregifts_giftcardsintegrator" translate="label">
+            <label>Options</label>
+            <sort_order>200</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <tab>sg_tab</tab>
+            <groups>
+                <sg_group translate="label">
+                    <label>Suregifts Coupon Integrator Details</label>
+                    <comment>Enter the merchant username and password provided to you by SUREGIFTS</comment>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <sg_username translate="label">
+                            <label>Username: </label>
+                            <comment>Enter the merchant username</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sg_username>
+                         <sg_password translate="label">
+                            <label>Password: </label>
+                            <comment>Enter the merchant password</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sg_password>
+                        <sg_notice translate="label">
+                            <label>Message: </label>
+                            <comment>Enter the store notice</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sg_notice>
+                        
+                        <sg_mode translate="label">
+                            <label>Test Mode </label>
+                            <comment>selct 'No' to authenticate with live server</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </sg_mode>                    
+                    </fields>
+                </sg_group>
+
+            </groups>
+        </sg_section>
+    </sections>
+</config>
