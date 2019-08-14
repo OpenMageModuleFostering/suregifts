@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>SureGifts</name>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License v. 3.0 (OSL-3.0)</license>
     <channel>community</channel>
     <extends/>
     <summary>Integrates SureGifts gift card codes with your store&#x2019;s coupon/discount field on cart/checkout page</summary>
     <description>Integrates SureGifts gift card codes with your store&#x2019;s coupon/discount field on cart/checkout page</description>
-    <notes>Initial Release</notes>
+    <notes>coupon code now applies to shipping amount</notes>
     <authors><author><name>Michael Adeyeri</name><user>michael_adeyeri</user><email>adeyerimichael@gmail.com</email></author></authors>
-    <date>2014-07-30</date>
-    <time>21:14:03</time>
-    <contents><target name="magecommunity"><dir name="SureGifts"><dir name="GiftCardsIntegrator"><dir name="Helper"><file name="Data.php" hash="7e85a45db5bd44ef823f61c3fe9bca90"/></dir><dir name="Model"><file name="Observer.php" hash="3f34232e5830ed07dacfe6d70aa60b50"/></dir><dir name="etc"><file name="adminhtml.xml" hash="bbed614a560feaffdcfad1046a5ca6ec"/><file name="config.xml" hash="273cd3238c38a32478e0e1199917d565"/><file name="system.xml" hash="1ca69683b257bcd2c598d26c8e6a0ed2"/></dir></dir><file name="desktop.ini" hash="15478b340a8362bb79fd2a6ea0dde1a0"/></dir></target><target name="mageetc"><dir name="modules"><file name="SureGifts_GiftCardsIntegrator.xml" hash="fb003392d5b16d17798ef75cefcc0019"/></dir></target></contents>
+    <date>2014-09-16</date>
+    <time>18:35:02</time>
+    <contents><target name="magecommunity"><dir name="SureGifts"><dir name="GiftCardsIntegrator"><dir name="Helper"><file name="Data.php" hash="7e85a45db5bd44ef823f61c3fe9bca90"/></dir><dir name="Model"><file name="Observer.php" hash="70900f82f4298e3a70c3f7695374d597"/></dir><dir name="etc"><file name="adminhtml.xml" hash="bbed614a560feaffdcfad1046a5ca6ec"/><file name="config.xml" hash="273cd3238c38a32478e0e1199917d565"/><file name="system.xml" hash="2f647b5c82df9a939253fda2bd8e8b3f"/></dir></dir><file name="desktop.ini" hash="15478b340a8362bb79fd2a6ea0dde1a0"/></dir></target><target name="mageetc"><dir name="modules"><file name="SureGifts_GiftCardsIntegrator.xml" hash="fb003392d5b16d17798ef75cefcc0019"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

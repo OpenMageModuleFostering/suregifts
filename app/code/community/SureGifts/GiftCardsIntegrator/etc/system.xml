@@ -41,11 +41,20 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </sg_password>
+                        <sg_websitehost translate="label">
+                            <label>Website Host: </label>
+                            <comment>Enter website host for authentication</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sg_websitehost>
                         <sg_notice translate="label">
                             <label>Message: </label>
                             <comment>Enter the store notice</comment>
                             <frontend_type>text</frontend_type>
-                            <sort_order>40</sort_order>
+                            <sort_order>50</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
@@ -55,7 +64,7 @@
                             <label>Test Mode </label>
                             <comment>selct 'No' to authenticate with live server</comment>
                             <frontend_type>select</frontend_type>
-                            <sort_order>50</sort_order>
+                            <sort_order>60</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>

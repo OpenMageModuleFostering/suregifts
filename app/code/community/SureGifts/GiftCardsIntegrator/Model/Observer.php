@@ -57,6 +57,7 @@ class SureGifts_GiftCardsIntegrator_Model_Observer
         $coupon_value = 0;
         $username = Mage::getStoreConfig('sg_section/sg_group/sg_username',Mage::app()->getStore());
         $password = Mage::getStoreConfig('sg_section/sg_group/sg_password',Mage::app()->getStore());
+        $website_host = Mage::getStoreConfig('sg_section/sg_group/sg_websitehost',Mage::app()->getStore());
         $mode = Mage::getStoreConfig('sg_section/sg_group/sg_mode',Mage::app()->getStore());
         
        
@@ -89,7 +90,7 @@ class SureGifts_GiftCardsIntegrator_Model_Observer
           "AmountToUse" => $res['AmountToUse'] , 
         //"AmountToUse" => 2000,
           "VoucherCode" => $the_coupon_code,
-          "WebsiteHost" => ""
+          "WebsiteHost" => $website_host
           );  
 
         $data_string = json_encode($data);                                                                                   
@@ -162,7 +163,7 @@ class SureGifts_GiftCardsIntegrator_Model_Observer
           ->setDiscountQty(null)
           ->setDiscountStep(0)
           ->setSimpleFreeShipping('0')
-          ->setApplyToShipping('0')
+          ->setApplyToShipping('1')
           ->setIsRss(0)
           ->setWebsiteIds(array(1));
 
