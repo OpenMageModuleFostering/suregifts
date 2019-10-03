@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/SureGifts",
+    "name": "OpenMageModuleFostering\/SureGifts",
     "type": "magento-module",
     "license": "Open-Software-License-v.-3.0-(OSL-3.0)",
     "homepage": "",
-    "description": "Integrates SureGifts gift card codes with your store’s coupon/discount field on cart/checkout page",
+    "description": "Integrates SureGifts gift card codes with your store\u2019s coupon\/discount field on cart\/checkout page",
     "authors": [
-    {
-        "name": "Michael Adeyeri",
-        "email": "adeyerimichael@gmail.com"
-    }
-],
+        {
+            "name": "Michael Adeyeri",
+            "email": "adeyerimichael@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
